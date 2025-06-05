@@ -30,7 +30,7 @@ export default class News extends PureComponent {
 
   //prev click function
 handlePrevClick=async()=>{
-  console.log("prev is clicked")
+  console.log("prev is clicked again")
   // if(this.state.page<=1){
   //   console.log("You are on first page");
   let url=`https://newsapi.org/v2/top-headlines?country=us&apiKey=22406079519d4517877b5e932615d565&page=${this.state.page -1}&pageSize=20`;
